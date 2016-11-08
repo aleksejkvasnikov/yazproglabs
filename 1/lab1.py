@@ -14,7 +14,7 @@ def rekursia(link,i):
 		for link in links:
 
 			print(link)			
-		emails = re.findall(r'[\w\.-]+@[\w\.-]+\.+[\w\.-]+', response.text) 
+		emails = re.findall(r'[\w\.-]+@[\w\.-]+\.[\w\.-]+', response.text) 
 
 		links = set(links)
 
